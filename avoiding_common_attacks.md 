@@ -1,0 +1,5 @@
+- Using Specific Compiler Pragma SWC-103
+- Proper Use of Require SWC-123
+- Authorization through tx.origin SWC-115
+- Use Modifiers Only for Validation
+- Lack of Proper Signature Verification SWC-122

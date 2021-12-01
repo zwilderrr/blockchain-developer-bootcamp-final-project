@@ -1,0 +1,112 @@
+.bgwhite {
+	background: ghostwhite;
+}
+
+.body-text {
+	font-size: 20px;
+	font-weight: bolder;
+	padding-bottom: 10px;
+}
+
+.body-text-wrapper {
+	padding-bottom: 20%;
+}
+
+.col-left {
+	flex: 3;
+	box-sizing: border-box;
+}
+
+.col-right {
+	flex: 4;
+}
+
+.col-left,
+.col-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.cta-text {
+	font-weight: bolder;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+.cta-text-wrapper {
+	bottom: 0;
+	padding-bottom: 10px;
+}
+
+.first {
+	padding: 50px 0;
+}
+
+.helper-text {
+	padding-top: 30px;
+}
+
+.row {
+	display: flex;
+	max-width: 1440px;
+	margin: 0 auto;
+	min-height: 35vh;
+	padding: 150px 0;
+	width: 70%;
+}
+
+.spacer {
+	flex: 1;
+}
+
+.success-message {
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+	.cta-text {
+		font-size: 16px;
+	}
+	.body-text {
+		font-size: 20px;
+	}
+
+	.spacer {
+		flex: 0.5;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.cta-text {
+		font-size: 14px;
+	}
+	.body-text {
+		font-size: 16px;
+	}
+
+	.spacer {
+		flex: 0.5;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.cta-text {
+		font-size: 16px;
+	}
+
+	.cta-text-wrapper,
+	.body-text-wrapper {
+		padding: 50px 0 20px;
+	}
+
+	.first {
+		padding: 50px 0 0;
+	}
+
+	.row {
+		display: block;
+		padding: 100px 0 50px;
+		width: 80%;
+	}
+}
