@@ -1,6 +1,8 @@
 # RockstarsNFT
 
-RockstarsNFT is a collection of 10,000 uniquely generated NFTs rockin' out on the Ethereum blockchain. The frontend can be viewed at https://rockstars.buzz.
+RockstarsNFT is a collection of 10,000 uniquely generated NFTs rockin' out on the Ethereum blockchain.
+
+The frontend can be viewed at https://rockstars.buzz.
 
 ### Getting started locally
 
